@@ -27,5 +27,5 @@ describe('GiftItem test', () => {
         
         render( <GifItem title={ title } url={ url }/>)
         expect( screen.getByText( title )).toBeTruthy();
-       })
+       });
  })
