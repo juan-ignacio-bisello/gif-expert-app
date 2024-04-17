@@ -11,6 +11,6 @@ describe('Puebas en <AddCategory/>', () => {
 
         fireEvent.input( input, { target: { value: 'Saitama' }} );
         expect( input.value ).toBe('Saitama');
-        screen.debug()
+        // screen.debug()
      });
-})
+});
